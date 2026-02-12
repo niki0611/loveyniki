@@ -93,7 +93,7 @@ const stepsData = [
   { text: "Are you serious 🥺", image: "assets/plz.gif" },
   { text: "Oye firaangggg 😠", image: "assets/attitude.gif" },
   { text: "Oh my God? 😭", image: "assets/cry.gif" },
-  { text: "Full cutie huh 😍", image: "assets/cute.gif" },
+  { text: "Stop (ikykik)😍", image: "assets/cute.gif" },
   { text: "Last chance ❤️", image: "assets/loveme.gif" }
 ];
 
@@ -123,7 +123,7 @@ noBtn.addEventListener("touchstart", moveNoButton);
 yesBtn.addEventListener("click", acceptLove);
 
 function acceptLove() {
-  text.innerText = "I knew you'd say yes! ❤️";
+  text.innerText = "Like no was ever an option! ❤️";
   img.style.backgroundImage = "url(assets/thanks.gif)";
 
   yesBtn.style.display = "none";
