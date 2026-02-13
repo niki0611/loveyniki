@@ -18,7 +18,7 @@ const card = document.getElementById("card");
 const music = document.getElementById("bgMusic");
 const awwSound = document.getElementById("awwSound");
 const musicBtn = document.getElementById("music");
-const themeBtn = document.getElementById("theme");
+
 
 /* =========================
    STATE
